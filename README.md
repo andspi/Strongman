@@ -12,7 +12,7 @@ Neither the graphics nor the code are finished.
 ## v1 
 worked by selectively displaying animated gifs and timing the game via the `setTimeOut()` function.
 ## v2 
-* selectively display parts of a jpg containing all the animation frames in a `<canvas>` element. Using this html5 element opens vast possibilites that `<img>` cannot provide
-* is timed via the `window.requestAnimationFrame()` method and a conditional to provide intervalls of target time. 
+1. selectively display parts of a jpg containing all the animation frames in a `<canvas>` element. Using this html5 element opens vast possibilites that `<img>` cannot provide 
+2. is timed via the `window.requestAnimationFrame()` method and a conditional to provide intervalls of target time. 
 ---
 _It is fun to see ones first code grow =)_
