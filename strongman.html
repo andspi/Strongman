@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Klick till you drop!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="strongman.css" />
+</head>
+<body>
+	<header><h1>!!! Strongman !!!</h1></header>
+
+	<main>
+	<!-- Animation Frame -->
+		<canvas id="weightliftCanvas" width="600px" height="600px"></canvas>
+	<!--	<div  class="weightliftcanvas">
+			<img src="pics/rest.gif" id="rest" />
+			<img src="pics/lift.gif" id="lift" />
+			<img src="pics/push.gif" id="push" />
+			<img src="pics/hold.gif" id="hold" />
+		</div> -->
+
+
+	<!-- Gauge & Counters	-->
+		<fieldset id="gauge">
+		<!-- Meters -->
+			<input id="reset" type="button" class="button" value="reset" />
+			<ul>
+				<li>Round: <output id="roundcount" class="listfield"></output></li>
+				<li>10 Seconds:<br /><meter id="countdown" class="bar listfield" value="" min="0" max="100"></meter></li>
+				<li>Power:<br /><meter id="powermeter" class="bar listfield" value="0" min="0" max="100" high="80"></meter></li>
+			</ul>
+			<hr />
+		<!-- Power Button 	-->
+			<input id="space" type="button" class="button" value="Click to Start!" />
+			<hr />
+		<!-- User Messages -->
+			<field><output>
+				<ul id="messages">
+					<li>Bring it on!</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</output></field>
+		</fieldset>
+	</main>
+	<footer>
+	<!--LOG-->	
+		<ol id="log" class="log"></ol>
+	</footer>
+
+
+<script src="strongman_2.1.js" ></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+	max-width: 1200px;
+	min-width: 400px;
+	background-color: #E88D65;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	display: none;
+	width: 600px;
+	height: 600px;
+}
+
+hr {margin:1em 0;}
+
+.activated {
+	display: block;
+}
+
+.button {
+	background-color: #e86765;
+	border-radius: 0.5em;
+	font-size: larger;
+}
+
+.deactivated {
+	background-color: #888;
+	color: white;
+	font-weight:100;
+}
+
+.weightliftcanvas {
+	width: 600px;
+	height: 600px;
+	background-color: #FF6FAF;
+	padding: 10px;
+	float: left;
+}
+
+#space {
+	width:100%;
+	height: 5em;
+
+}
+
+#reset {
+	padding: 1em;
+	margin: 1em;
+	float: right;
+	font-size: medium;
+}
+
+fieldset {
+	width: 40%;
+	min-width: 400px;
+	float: right;
+	background-color: #FFB06F;
+	font-size: large;
+	font-family: Verdana, sans-serif;
+	padding:1em;
+}
+
+fieldset > output {
+}
+
+ul#messages {
+	padding: 1em 3em;
+	margin: 2em;
+	min-height: 7em;
+	border: 1px solid navy;
+	font-size: small;
+	list-style-type: none;
+
+}
+
+ul#messages > li {
+
+}
+
+fieldset > ul li {
+	list-style-type: none;
+	margin-bottom: 0.5em;
+	width: 10em;
+	border: 1px dotted navy;
+	padding: 0.5em 2.5em;
+
+}
+
+fieldset legend {
+	font-weight: bolder;
+}
+
+.bar {
+font-weight: bold;
+width:100%;
+}
+
+#roundcount {
+}
+
+footer {
+	width: 400px;
+
+}
